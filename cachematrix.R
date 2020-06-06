@@ -26,11 +26,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-## Same here, changed "mean" to "solve" and "m" to "i"
+## Changed "mean" to "solve" and "m" to "i"
 
 ###########################################################
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+  
   ## Return a matrix that is the inverse of 'x'
   i <- x$getsolve()
   if(!is.null(i)) {
